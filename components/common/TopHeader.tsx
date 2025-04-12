@@ -3,13 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faLocationDot } from '@fortawesome/free-solid-svg-icons/faLocation';
 import { faEnvelopeOpen, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
-import { faFacebookF, faInstagram, faLinkedinIn, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import styles from '../../styles/components/topHeader.module.css';
 import SocialLinks from './SocialLinks';
 
 const TopHeader = () => {
   return (
-    <div className="bg-black flex flex-row justify-between items-center py-[10px] px-[50px]" >
+    <div className="bg-black md:flex flex-row justify-between items-center py-[10px] px-[50px] hidden" >
         <div className="flex gap-10">
             <Link href="https://maps.app.goo.gl/XhbySAPMMv72hqkU7" title="Bueze tech limited address" target="_blank" className="flex gap-2">
               <span><FontAwesomeIcon icon={faLocationDot} className="text-[#fd9800] w-[16px]" /></span>
