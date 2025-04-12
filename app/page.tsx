@@ -3,7 +3,7 @@ import TopHeader from "../components/common/TopHeader";
 
 const Home = () => {
   return (
-    <div>
+    <div className="relative">
       <TopHeader />
       <MainHeader />
     </div>
