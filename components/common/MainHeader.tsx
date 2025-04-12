@@ -8,7 +8,7 @@ import Logo from "../../public/logo.png";
 
 const MainHeader = () => {
   return (
-    <div className="bg-[#fff] border fixed w-[100%] py-[5px] px-[50px] hidden md:block">
+    <div className="bg-[#fff] border fixed w-[100%] py-[5px] px-[50px] hidden lg:block">
         <header>
             <nav className="flex justify-between items-center">
                 <div>

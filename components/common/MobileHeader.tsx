@@ -16,7 +16,7 @@ const MobileHeader = () => {
     };
 
     return (
-        <div className="block bg-[#ccc] border fixed w-full py-[20px] z-50 md:hidden">
+        <div className="block bg-[#ccc] border fixed w-full py-[20px] z-50 lg:hidden">
             <header className="relative">
                 <nav className="flex justify-between items-center px-[50px]">
                     <Link href="/">
