@@ -1,7 +1,19 @@
+.socialIconContainer {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.socialIconContainer:hover {
+    background-color: #181842;
+}
+
 .socialIcon {
     width: 20px;
-    padding: 30px;
-    /* border: 2px solid white; */
-    border-radius: 50%;
-    /* background-color: #5c5c5d; */
+    min-height: 20px;
+    color: #181842;
+}
+
+.socialIcon:hover {
+    color: #fd9800;
 }

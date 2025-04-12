@@ -19,16 +19,15 @@ const TopHeader = () => {
               </span><span className="text-[#5c5c5d] text-[16px]">info@buezetech.com</span>
             </Link>
         </div>
-        <div className="border">
-            <ul className="flex flex-row gap-2">
-                <li className="bg-[#fff] rounded-[50%] py-2 px-4" ><Link href="https://facebook.com"><FontAwesomeIcon icon={faFacebookF} className="text-[#181842] w-[20px] min-h-[20px]" /></Link></li>
-                <li className="bg-[#fff] rounded-[50%] py-2 px-4"><Link href="https://facebook.com"><FontAwesomeIcon icon={faLinkedinIn} className="text-[#181842] w-[20px] min-h-[20px] pt-1" /></Link></li>
-                <li className="bg-[#fff] rounded-[50%] py-2 px-4"><Link href="https://facebook.com"><FontAwesomeIcon icon={faTwitter} className="text-[#181842] w-[20px] min-h-[20px] pt-2"/></Link></li>
-                <li className="bg-[#fff] rounded-[50%] py-2 px-4"><Link href="https://facebook.com"><FontAwesomeIcon icon={faInstagram} className="text-[#181842] w-[20px] min-h-[20px] pt-1"/></Link></li>
-                <li className="bg-[#fff] rounded-[50%] py-2 px-4"><Link href="https://facebook.com"><FontAwesomeIcon icon={faTiktok} className="text-[#181842] w-[20px] min-h-[20px] pt-1"/></Link></li>
-            </ul>
+        <div className="">
+            <nav className="flex flex-row gap-2">
+                <Link href="https://facebook.com" target="_blank" title="Bueze tech limited facebook account" className={styles.socialIconContainer} ><FontAwesomeIcon icon={faFacebookF} className={styles.socialIcon} /></Link>
+                <Link href="https://facebook.com" target="_blank" title="Bueze tech limited linkendin account" className={styles.socialIconContainer}><FontAwesomeIcon icon={faLinkedinIn} className={`${styles.socialIcon} pt-1`} /></Link>
+                <Link href="https://facebook.com" target="_blank" title="Bueze tech limited twitter account" className={styles.socialIconContainer}><FontAwesomeIcon icon={faTwitter} className={`${styles.socialIcon} pt-2`}/></Link>
+                <Link href="https://facebook.com" target="_blank" title="Bueze tech limited instagram account" className={styles.socialIconContainer}><FontAwesomeIcon icon={faInstagram} className={`${styles.socialIcon} pt-1`}/></Link>
+                <Link href="https://facebook.com" target="_blank" title="Bueze tech limited tiktok account" className={styles.socialIconContainer}><FontAwesomeIcon icon={faTiktok} className={`${styles.socialIcon} pt-1`}/></Link>
+            </nav>
         </div>
-
     </div>
   );
 };
