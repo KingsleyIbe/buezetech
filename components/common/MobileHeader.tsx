@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from '../../styles/components/mainHeader.module.css';
-import Logo from "../../public/logo.png";
+import Logo from './Logo';
+// import Logo from "../../public/logo.png";
 
 const MobileHeader = () => {
     const [isOpen, setIsopen] = useState(false);
@@ -16,12 +17,10 @@ const MobileHeader = () => {
     };
 
     return (
-        <div className="block bg-[#ccc] border fixed w-full py-[20px] z-50 lg:hidden">
+        <div className="block bg-[#ddd] border fixed top-0 w-full py-[20px] z-50 lg:hidden">
             <header className="relative">
                 <nav className="flex justify-between items-center px-[50px]">
-                    <Link href="/">
-                        <Image src={Logo} alt="Bueze Tech Limited Logo" width={60} height={40}/>
-                    </Link>
+                   <Logo />
                     <button type="button" className={styles.bookSessionBtn}>
                       <Link href="/">Book A Session</Link>
                     </button>

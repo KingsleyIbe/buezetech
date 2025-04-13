@@ -1,20 +1,20 @@
 import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react';
 import styles from '../../styles/components/mainHeader.module.css';
-import Logo from "../../public/logo.png";
+import Logo from './Logo';
+// import Logo from "../../public/logo.png";
 
 const MainHeader = () => {
   return (
-    <div className="bg-[#fff] border fixed w-[100%] py-[5px] px-[50px] hidden lg:block">
+    <div className="bg-[#fff] border top-[50] fixed w-[100%] py-[5px] px-[50px] hidden lg:block">
         <header>
-            <nav className="flex justify-between items-center">
-                <div>
-                    <Link href="/">
-                      <Image src={Logo} alt="Bueze Tech Limited Logo" width="60" height="40" />
-                    </Link>
+            <nav className="flex justify-between items-center text-[#181842]">
+                <div className="flex items-center text-[24px] font-bold">
+                   <Logo />
+                   <h2>Bueze<span className="text-[#fd9800]">Tech</span></h2>
                 </div>
                 <ul className="flex gap-5 text-[#181842]">
                     <li><Link href="/">Home</Link></li>
