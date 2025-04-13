@@ -1,0 +1,14 @@
+.bookSessionBtn {
+    background-color: #fd9800;
+    color: #212149;
+    /* color: #181842; */
+    padding: 12px 22px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+
+.bookSessionBtn:hover {
+    background-color: #fff;
+    color: #fd9800;
+}
