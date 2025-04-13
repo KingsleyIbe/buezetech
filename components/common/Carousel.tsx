@@ -41,9 +41,21 @@ const Carousel: React.FC = () => {
             key={idx}
             src={src}
             alt={`Slide ${idx}`}
-            className="flex-shrink-0"
+            className="flex-shrink-0 object-cover brightness-70"
           />
         ))}
+        {/* {images.map((src, idx) => (
+  <div key={idx} className="relative flex-shrink-0 w-[100vw] h-[100vh]">
+    <Image
+      src={src}
+      alt={`Slide ${idx}`}
+      fill
+      className="object-cover brightness-90"
+    />
+    <div className="absolute inset-0 bg-black/40" />
+  </div>
+))} */}
+
       </div>
 
       {/* Navigation Buttons */}
