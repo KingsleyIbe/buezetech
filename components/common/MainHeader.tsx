@@ -9,7 +9,7 @@ import Logo from './Logo';
 
 const MainHeader = () => {
   return (
-    <div className="bg-[#fff] border top-[50] fixed w-[100%] py-[5px] px-[50px] hidden lg:block">
+    <div className="bg-[#fff] border z-[50] top-[50] fixed w-[100%] py-[5px] px-[50px] hidden lg:block">
         <header>
             <nav className="flex justify-between items-center text-[#181842]">
                 <div className="flex items-center text-[24px] font-bold">

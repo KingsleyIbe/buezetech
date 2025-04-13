@@ -1,3 +1,4 @@
+import Carousel from "../components/common/Carousel";
 import Footer from "../components/common/Footer";
 import MainHeader from "../components/common/MainHeader";
 import MobileHeader from "../components/common/MobileHeader";
@@ -9,6 +10,7 @@ const Home = () => {
       <TopHeader />
       <MobileHeader />
       <MainHeader />
+      <Carousel />
       <Footer />
     </div>
   );
