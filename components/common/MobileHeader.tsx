@@ -1,12 +1,10 @@
 'use client';
 import React, { useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from '../../styles/components/mainHeader.module.css';
 import Logo from './Logo';
-// import Logo from "../../public/logo.png";
 
 const MobileHeader = () => {
     const [isOpen, setIsopen] = useState(false);
