@@ -109,7 +109,7 @@ const OurIndustries = () => {
                                 }}
                                 className="p-4 rounded-full text-xl mb-4"
                             />
-                            <h3 className="text-[#181842] font-semibold">{item.title}</h3>
+                            <p className="text-[#181842] font-semibold">{item.title}</p>
                         </li>
                     ))}
                 </ul>
