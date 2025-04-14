@@ -90,8 +90,8 @@ const OurIndustries = () => {
     return (
         <div className="py-[5px] my-[100px]">
             <div className="px-[50px]">
-                <h2 className="text-[34px] font-fold text-[#181842] relative" > <span className="after:content-[''] after:absolute after:top-0 after:left-0 after:h-full after:w-[4px] after:bg-[#fd9800] mr-2"></span>Industries We Serve</h2>
-                <p className="text-[#181842]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident quis neque reprehenderit iure, id amet qui esse, asperiores voluptatem magnam accusantium maxime minima fuga eaque hic eligendi. Doloribus, pariatur!</p>
+                <h2 className="text-[34px] font-fold text-[#181842] relative" > <span className="after:content-[''] after:absolute after:top-0 after:left-0 after:h-full after:w-[4px] after:bg-[#fd9800] mr-4"></span>Industries We Serve</h2>
+                <p className="text-[#181842] font-[BreeSerif]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident quis neque reprehenderit iure, id amet qui esse, asperiores voluptatem magnam accusantium maxime minima fuga eaque hic eligendi. Doloribus, pariatur!</p>
             </div>
 
             <div className="mt-[30px] bg-[#ddd] p-10">
@@ -109,7 +109,7 @@ const OurIndustries = () => {
                                 }}
                                 className="p-4 rounded-full text-xl mb-4"
                             />
-                            <p className="text-[#181842] font-semibold">{item.title}</p>
+                            <p className="text-[#181842] font-semibold font-[BreeSerif]">{item.title}</p>
                         </li>
                     ))}
                 </ul>

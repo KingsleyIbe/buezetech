@@ -14,7 +14,7 @@ const Footer = () => {
                         <div className="flex items-center">
                         <Logo /> <h3 className="text-[24px] font-bold">Bueze <span className="text-[#fd9800]">Tech</span> Limited</h3>
                         </div>
-                        <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dolorum corrupti. Numquam temporibus neque porro nam dolores iste illo autem quos. Optio necessitatibus id eaque, officia fugiat distinctio odio tenetur.</p>
+                        <p className="mb-5 font-[BreeSerif] w-[50%] text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dolorum corrupti. Numquam temporibus neque porro nam dolores iste illo autem quos. Optio necessitatibus id eaque, officia fugiat distinctio odio tenetur.</p>
                         <SocialLinks />
                     </div>
                     <div>

@@ -12,3 +12,19 @@ body {
   font-family: var(--font-bree-serif);
 }
 
+.bg-deco1 {
+  background-image: url(../public/bg-design.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: color;
+}
+
+.bg-deco2 {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/bg-design2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* position: relative; */
+  /* filter: brightness(0.5); */
+}
