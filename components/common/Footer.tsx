@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from './Logo';
 import SocialLinks from './SocialLinks';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
