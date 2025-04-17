@@ -21,7 +21,7 @@ body {
 }
 
 .bg-deco2 {
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/bg-design2.png);
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/bg-design2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

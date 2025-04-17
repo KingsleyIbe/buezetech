@@ -12,9 +12,9 @@ const MainHeader = () => {
     <div className="bg-[#fff] border z-[50] top-[50] fixed w-[100%] py-[5px] px-[50px] hidden lg:block">
         <header>
             <nav className="flex justify-between items-center text-[#181842]">
-                <div className="flex items-center text-[24px] font-bold">
+                <div className="flex flex-col items-center text-[24px] font-bold">
                    <Logo />
-                   <h2>Bueze<span className="text-[#fd9800]">Tech</span></h2>
+                   <h2 className="text-[10px]">Bueze Tech</h2>
                 </div>
                 <ul className="flex gap-5 text-[#181842]">
                     <li><Link href="/">Home</Link></li>
