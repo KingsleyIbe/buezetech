@@ -39,6 +39,10 @@ const services: Service[] = [
     title: 'Web Development',
     description: 'We develop responsive, performant websites that elevate your brand and meet business goals.',
   },
+   {
+    title: 'Low-Code/No-Code',
+    description: 'Empower your organization with cutting-edge applications without the complexities of traditional coding. ',
+  },
 ];
 
 const Services = () => {
