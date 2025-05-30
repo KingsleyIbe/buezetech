@@ -5,8 +5,8 @@ import ContactForm from './ContactForm';
 
 const ContactUs = () => {
   return (
-    <section className="flex gap-5 justify-between px-[50px]">
-      <div className="w-[50%]">
+    <section className="flex md:flex-row flex-col gap-5 py-5 md:justify-between px-[50px]">
+      <div className="md:w-[50%] w-full">
         <div>
           <Image src={ContactImage} alt="" className="" />
         </div>

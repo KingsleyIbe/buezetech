@@ -20,7 +20,7 @@ const MobileHeader = () => {
                 <nav className="flex justify-between items-center px-[50px]">
                    <Logo />
                     <button type="button" className={styles.bookSessionBtn}>
-                      <Link href="/">Book A Session</Link>
+                      <Link href="/contact-us#calendly">Book A Session</Link>
                     </button>
                     <button onClick={handleToggle}>
                         <FontAwesomeIcon icon={faBars} className="text-[#181842] w-[30px] h-[30px] border p-2 rounded-[8px]" />
