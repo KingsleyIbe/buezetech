@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import toast from 'react-hot-toast';
 
 const ContactForm = () => {
   const [fullName, setFullName] = useState('');
@@ -9,18 +10,41 @@ const ContactForm = () => {
   const [phone, setPhone] = useState('');
   const [budget, setBudget] = useState('');
   const [description, setDescription] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ fullName, email, phone, budget, description }),
-    });
+    if (!fullName || !email || !phone || !budget || !description) {
+      return toast.error('Please fill out all required fields.');
+    }
 
-    const data = await res.json();
-    alert(data.message);
+    try {
+      setLoading(true);
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ fullName, email, phone, budget, description }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        toast.success(data.message || 'Form submitted successfully!');
+        // Reset form
+        setFullName('');
+        setEmail('');
+        setPhone('');
+        setBudget('');
+        setDescription('');
+      } else {
+        toast.error(data.message || 'Something went wrong. Please try again.');
+      }
+    } catch (error) {
+      toast.error('Network error. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -115,7 +139,6 @@ const ContactForm = () => {
             id="description"
             name="description"
             placeholder="Enter your message"
-            required
             className="border p-2 mt-2 rounded-[5px]"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
@@ -125,9 +148,10 @@ const ContactForm = () => {
         <div className="flex flex-col mb-5 w-full md:w-[50%] m-auto">
           <button
             type="submit"
-            className="bg-[#fd9800] hover:text-[#fd9800] rounded-lg py-[12px] px-[22px] text-[#181842] hover:bg-[#181842]"
+            disabled={loading}
+            className="bg-[#fd9800] hover:text-[#fd9800] rounded-lg py-[12px] px-[22px] text-[#181842] hover:bg-[#181842] disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Submit
+            {loading ? 'Submitting...' : 'Submit'}
           </button>
         </div>
       </div>

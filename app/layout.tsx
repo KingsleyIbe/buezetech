@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Toaster } from 'react-hot-toast';
 import { Geist, Geist_Mono, Bree_Serif, Lato } from "next/font/google";
 import "../styles/globals.css";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lato.variable} ${breeSerif.variable} font-sans antialiased`}
       >
+        <Toaster position="top-right" reverseOrder={false} />
         {children}
       </body>
     </html>

@@ -19,7 +19,7 @@ const MainHeader = () => {
                 <ul className="flex gap-5 text-[#181842]">
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/about-us">About Us</Link></li>
-                    <li><Link href="/services">Services</Link></li>
+                    <li><Link href="/our-process">Our Process</Link></li>
                     <li><Link href="/blog">Blog</Link></li>
                     <li><Link href="/community">Community</Link></li>
                     <li><Link href="/contact-us">Contact Us</Link></li>
