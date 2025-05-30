@@ -32,7 +32,7 @@ const MainHeader = () => {
                        <Link href="/" className="text-[#fd9800] opacity-[0.8]">Call: +234 902 095 6168</Link>
                     </div>
                     <button type="button" className={styles.bookSessionBtn}>
-                      <Link href="/">Book A Session</Link>
+                      <Link href="/contact-us#calendly">Book A Session</Link>
                     </button>
                 </div>
             </nav>

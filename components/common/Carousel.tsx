@@ -15,7 +15,7 @@ const slides = [
         buttonText1: "Read More",
         buttonText2: "Book Free Session",
         buttonLink1: "/",
-        buttonLink2: "/",
+        buttonLink2: "/contact-us#calendly",
     },
     {
         image: carousel2,
@@ -24,7 +24,7 @@ const slides = [
         buttonText1: "Read More",
         buttonText2: "Book Free Session",
         buttonLink1: "/",
-        buttonLink2: "/",
+        buttonLink2: "/contact-us#calendly",
     },
     {
         image: carousel3,
@@ -33,7 +33,7 @@ const slides = [
         buttonText1: "Read More",
         buttonText2: "Book Free Session",
         buttonLink1: "/",
-        buttonLink2: "/",
+        buttonLink2: "/contact-us#calendly",
     },
 ];
 
