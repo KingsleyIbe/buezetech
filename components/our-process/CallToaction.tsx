@@ -3,7 +3,7 @@ import React from 'react';
 
 const CallToaction = () => {
   return (
-    <section className="bg-amber-50 text-center p-10 flex flex-col ">
+    <section className="bg-[#ddd] text-center p-10 flex flex-col ">
         <div className="text-3xl mb-5">
         <p>Curious to Learn More About our </p>
         <p className="text-[#fd9800]">App Development Process?</p>

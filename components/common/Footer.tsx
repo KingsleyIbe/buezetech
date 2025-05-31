@@ -6,7 +6,7 @@ import { faEnvelopeOpen, faLocationDot, faPhoneFlip } from '@fortawesome/free-so
 
 const Footer = () => {
     return (
-        <div className="bg-[#ddd] w-full py-[20px] text-[#181842] text-[18px]">
+        <div className="bg-amber-50 w-full py-[20px] text-[#181842] text-[18px]">
             <footer className="px-[50px]">
                 <nav className="flex flex-col justify-between gap-10 sm:flex-row sm:flex-wrap">
                     <div>

@@ -5,6 +5,7 @@ import TopHeader from '../../components/common/TopHeader';
 import MainHeader from '../../components/common/MainHeader';
 import Intro from '../../components/our-process/Intro';
 import CallToaction from '../../components/our-process/CallToaction';
+import Footer from '../../components/common/Footer';
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
         <Intro />
         <OurProcess />
         <CallToaction />
+        <Footer />
     </section>
   )
 }

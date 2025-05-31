@@ -50,11 +50,11 @@ const Services = () => {
 
   return (
     <section className="bg-[#ddd] bg-deco1 px-6 md:px-16 py-20 text-[#181842]">
-      <h2 className="text-3xl md:text-4xl mb-4 relative">
+      <h2 className="text-[34px] md:text-4xl mb-4 relative font-bold">
         <span className="after:content-[''] after:absolute after:top-0 after:left-0 after:h-full after:w-[4px] after:bg-[#fd9800] mr-4" />
         Our Services
       </h2>
-      <p className="mb-10 max-w-2xl font-[BreeSerif]">
+      <p className="mb-10 font-[BreeSerif]">
         At Bueze Tech Limited, we offer a diverse range of professional tech services tailored to businesses, individuals, and organizations ready to leverage innovation.
       </p>
 
