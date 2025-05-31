@@ -38,7 +38,7 @@ const Community: React.FC = () => {
           </div>
         </div>
 
-        <Link href="/register" passHref>
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdHP4YCDVXpfwyVAbRNubilsvhOCYhxlpbYJIZfqB3geaD1Cg/viewform?usp=header-" target='_blank' passHref>
           <button className="mt-4 px-8 py-3 bg-[#fd9800] hover:bg-[#181842] text-[#181842] hover:text-[#fd9800] rounded-[8px] transition">
             Join the Community
           </button>
