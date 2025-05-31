@@ -10,7 +10,8 @@ const Footer = () => {
             <footer className="px-[50px]">
                 <nav className="flex flex-col justify-between gap-10 sm:flex-row sm:flex-wrap">
                     <div>
-                        <p className="mb-5 font-[BreeSerif] w-[50%] text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dolorum corrupti. Numquam temporibus neque porro nam dolores iste illo autem quos. Optio necessitatibus id eaque, officia fugiat distinctio odio tenetur.</p>
+                        <p className="mb-5 font-[BreeSerif] w-[100%] text-left">
+                            At Bueze Tech Limited, we blend innovation, excellence, and passion to deliver top-tier digital solutions tailored to your business needs. From intuitive websites and scalable software to cybersecurity and tech consulting, our expert team ensures every project is driven by results and powered by technology. With a commitment to quality, client satisfaction, and future-forward thinking, Bueze Tech stands as your trusted partner in transforming ideas into impactful digital experiences—making us the best choice in the tech industry.</p>
                         <SocialLinks />
                     </div>
                     <div>

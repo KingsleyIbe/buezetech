@@ -14,7 +14,7 @@ const slides = [
         subheading: "We power project success",
         buttonText1: "Read More",
         buttonText2: "Book Free Session",
-        buttonLink1: "/",
+        buttonLink1: "/#services",
         buttonLink2: "/contact-us#calendly",
     },
     {
@@ -23,7 +23,7 @@ const slides = [
         subheading: "From innovative startups to enterprises, businesses trust us to develop, test, upgrade, and scale their digital products.",
         buttonText1: "Read More",
         buttonText2: "Book Free Session",
-        buttonLink1: "/",
+        buttonLink1: "/#services",
         buttonLink2: "/contact-us#calendly",
     },
     {
@@ -32,7 +32,7 @@ const slides = [
         subheading: "We ensure smooth growth and lasting success every step of the way",
         buttonText1: "Read More",
         buttonText2: "Book Free Session",
-        buttonLink1: "/",
+        buttonLink1: "/#services",
         buttonLink2: "/contact-us#calendly",
     },
 ];
