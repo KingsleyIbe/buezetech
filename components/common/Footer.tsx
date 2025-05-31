@@ -18,8 +18,8 @@ const Footer = () => {
                         <ul>
 
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/">Home</Link></li>
-                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/about-us">About Us</Link></li>
-                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/services">Services</Link></li>
+                            {/* <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/about-us">About Us</Link></li> */}
+                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/our-process">Our Process</Link></li>
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/blog">Blog</Link></li>
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/community">Community</Link></li>
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/contact-us">Contact Us</Link></li>
@@ -30,10 +30,10 @@ const Footer = () => {
                         <ul>
 
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/">Terms of Use</Link></li>
-                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/about-us">Privacy Policy</Link></li>
-                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/services">Need Support?</Link></li>
-                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/blog">FAQs</Link></li>
-                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/community">Feedback</Link></li>
+                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/privacy-policy">Privacy Policy</Link></li>
+                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/contact-us">Need Support?</Link></li>
+                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/#faq">FAQs</Link></li>
+                            <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/contact-us">Feedback</Link></li>
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/contact-us">Contact Us</Link></li>
                         </ul>
                     </div>
