@@ -20,8 +20,8 @@ const services: Service[] = [
     description: 'We offer top-notch cybersecurity services, including risk assessments, penetration testing, and secure systems implementation.',
   },
   {
-    title: 'UI Research',
-    description: 'Our research-driven approach ensures user interfaces are intuitive, efficient, and aligned with user expectations and behaviors.',
+    title: 'UX Research',
+    description: 'Our research-driven approach ensures user experience are intuitive, efficient, and aligned with user expectations and behaviors.',
   },
   {
     title: 'UI/UX Design',
