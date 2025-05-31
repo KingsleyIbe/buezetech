@@ -91,7 +91,6 @@ const Services = () => {
       </p>
 
       <div className="flex flex-col lg:flex-row">
-        {/* Sidebar */}
         <aside className="w-full lg:w-1/4 bg-deco2 bg-white p-4 shadow-md">
           <ul className="space-y-2">
             {services.map((service) => (
