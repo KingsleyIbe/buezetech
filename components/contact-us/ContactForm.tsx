@@ -31,7 +31,6 @@ const ContactForm = () => {
 
       if (res.ok) {
         toast.success(data.message || 'Form submitted successfully!');
-        // Reset form
         setFullName('');
         setEmail('');
         setPhone('');
