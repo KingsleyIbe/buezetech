@@ -87,7 +87,7 @@ const Services = () => {
         Our Services
       </h2>
       <p className="mb-10 font-[BreeSerif]">
-        At Bueze Tech Limited, we offer a diverse range of professional tech services tailored to meet the unique needs of businesses, individuals, and organizations that are ready to embrace innovation and drive meaningful transformation. Whether you're a startup seeking a scalable digital foundation, a growing business looking to automate operations, or an enterprise aiming to stay ahead in the digital race — our team of seasoned experts is committed to delivering solutions that generate real value. From custom software development and cybersecurity to UI/UX design and tech training, we don’t just provide services; we become your strategic technology partner. By choosing Bueze Tech, you’re not just keeping up with the future — you're staying ahead of it.
+        At Bueze Tech Limited, we offer a diverse range of professional tech services tailored to meet the unique needs of businesses, individuals, and organizations that are ready to embrace innovation and drive meaningful transformation. Whether you&#39;re a startup seeking a scalable digital foundation, a growing business looking to automate operations, or an enterprise aiming to stay ahead in the digital race — our team of seasoned experts is committed to delivering solutions that generate real value. From custom software development and cybersecurity to UI/UX design and tech training, we don&#39;t just provide services; we become your strategic technology partner. By choosing Bueze Tech, you&#39;re not just keeping up with the future — you're staying ahead of it.
       </p>
 
       <div className="flex flex-col lg:flex-row">

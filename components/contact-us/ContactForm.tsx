@@ -121,10 +121,10 @@ const ContactForm = () => {
             >
               <option value="">Select</option>
               <option value="$10-$1k">$10-$1k</option>
-              <option value="$1-$20k">$1-$20k</option>
-              <option value="$20-$50k">$20-$50k</option>
-              <option value="$50-$100k">$50-$100k</option>
-              <option value="$100-$250k">$100-$250k</option>
+              <option value="$1-$20k">$1k-$20k</option>
+              <option value="$20-$50k">$20k-$50k</option>
+              <option value="$50-$100k">$50k-$100k</option>
+              <option value="$100-$250k">$100k-$250k</option>
               <option value="No funding yet">No funding yet</option>
             </select>
           </div>

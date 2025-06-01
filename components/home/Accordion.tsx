@@ -58,7 +58,7 @@ export default function Accordion() {
           <div className="mb-10">
                 <h2 className="text-[34px] font-bold text-[#181842] relative" > <span className="after:content-[''] after:absolute after:top-0 after:left-0 after:h-full after:w-[4px] after:bg-[#fd9800] mr-4"></span>FAQ</h2>
                 <p className="text-[#181842] font-[BreeSerif]">
-                    We understand that navigating the tech world can come with many questions, and we’re here to provide clarity every step of the way. Our FAQ section is designed to address the most common inquiries about our services, processes, pricing, timelines, support, and more. Whether you're curious about how our custom software development works, need help understanding our cybersecurity approach, or want to know how to get started with a project, you'll find helpful answers here. We believe in transparency, open communication, and empowering our clients with the right information to make confident decisions. If you don’t find what you’re looking for, our support team is always ready to assist you directly.
+                    We understand that navigating the tech world can come with many questions, and we&#39;re here to provide clarity every step of the way. Our FAQ section is designed to address the most common inquiries about our services, processes, pricing, timelines, support, and more. Whether you&#39;re curious about how our custom software development works, need help understanding our cybersecurity approach, or want to know how to get started with a project, you&#39;ll find helpful answers here. We believe in transparency, open communication, and empowering our clients with the right information to make confident decisions. If you don&#39;t find what you&#39;re looking for, our support team is always ready to assist you directly.
                     </p>
             </div>
       <div className="flex justify-center mb-6 gap-4">
@@ -106,4 +106,4 @@ export default function Accordion() {
       </div>
     </section>
   );
-}
+};

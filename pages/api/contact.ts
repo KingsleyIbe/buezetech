@@ -16,7 +16,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
       await transporter.sendMail({
         from: process.env.EMAIL_USER,
-        to: 'buezetechlimited@gmail.com', // ✅ Change this to your real recipient email
+        to: 'buezetechlimited@gmail.com',
         subject: 'New Contact Form Submission',
         text: `
           Name: ${fullName}

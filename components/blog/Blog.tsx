@@ -6,7 +6,7 @@ const Blog: React.FC = () => {
       <div className="max-w-2xl py-16">
         <h1 className="text-4xl font-bold text-[#fd9800] mb-4">Our Blog is Coming Soon 🚀</h1>
         <p className="text-lg text-[#181842] mb-6">
-          We're working on exciting articles, tech insights, and updates to help you stay informed and inspired.
+          We&#39;re working on exciting articles, tech insights, and updates to help you stay informed and inspired.
         </p>
         <p className="text-md text-[#181842]">
           Please check back later to explore the latest from Bueze Tech Limited.

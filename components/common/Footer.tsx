@@ -19,7 +19,6 @@ const Footer = () => {
                         <ul>
 
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/">Home</Link></li>
-                            {/* <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/about-us">About Us</Link></li> */}
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/our-process">Our Process</Link></li>
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/blog">Blog</Link></li>
                             <li><span className="mr-[10px] text-[#fd9800] font-bold">&gt;</span><Link href="/community">Community</Link></li>

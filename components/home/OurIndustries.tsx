@@ -103,14 +103,14 @@ const OurIndustries = () => {
           with tailored technology solutions that solve real-world problems and
           unlock new opportunities for growth. Our team understands that every
           industry has its own set of challenges and goals — which is why we
-          deliver custom strategies that align with each sector’s unique
+          deliver custom strategies that align with each sector&#39;s unique
           demands.
         </p>
         <p className="text-[#181842] mb-5 font-[BreeSerif]">
-          Whether you're in healthcare seeking secure, compliant systems; in finance looking to automate workflows and enhance cybersecurity; or in education striving to deliver interactive learning experiences — we've got you covered. We also work with businesses in e-commerce, logistics, hospitality, agriculture, media, and government, providing innovative software, data-driven insights, and ongoing support that empower our clients to thrive in a digital-first world.
+          Whether you&#39;re in healthcare seeking secure, compliant systems; in finance looking to automate workflows and enhance cybersecurity; or in education striving to deliver interactive learning experiences — we&#39;ve got you covered. We also work with businesses in e-commerce, logistics, hospitality, agriculture, media, and government, providing innovative software, data-driven insights, and ongoing support that empower our clients to thrive in a digital-first world.
         </p>
         <p className="text-[#181842] mb-5 font-[BreeSerif]">
-            Partnering with Bueze Tech means gaining a trusted ally that understands your industry, speaks your language, and delivers measurable impact through technology. No matter your size or sector, we’re here to build, scale, and future-proof your business.
+            Partnering with Bueze Tech means gaining a trusted ally that understands your industry, speaks your language, and delivers measurable impact through technology. No matter your size or sector, we&#39;re here to build, scale, and future-proof your business.
         </p>
       </div>
 
