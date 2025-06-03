@@ -5,12 +5,16 @@ import { useState } from "react";
 const faqData = {
   administrative: [
     {
-      question: "What is our refund policy?",
-      answer: "Our refund policy allows refunds within 30 days of purchase.",
+      question: "What services do you offer?",
+      answer: `At Bueze Tech Limited, we offer a wide range of professional tech services tailored to meet the needs of individuals, businesses, and organizations. Our services include Custom Software Development, Website & Mobile App Development, UI/UX Design, Cybersecurity Solutions, IT Professional Training, Software Documentation, Technical Writing, Low-Code/No-Code Solutions, and Tech Courses Tutorship.`,
     },
     {
-      question: "How can I update my billing information?",
-      answer: "You can update billing information through your account settings.",
+      question: "How much do you charge for your services?",
+      answer: `Consider it like purchasing a car: are you looking for a high-performance luxury vehicle or a dependable small car? Customization, features, and complexity all affect the price. Don't worry, though; we have choices to suit every budget.`,
+    },
+     {
+      question: "What is your policy on refund?",
+      answer: `We aim for complete client satisfaction. However, in cases where expectations are not met and valid reasons are provided, refunds may be considered within 14–30 days depending on the nature of the service. Each project or training program may have specific refund terms, so please review your agreement or contact us for clarity.`,
     },
     {
       question: "What are the office working hours?",
@@ -18,26 +22,35 @@ const faqData = {
     },
     {
       question: "How do I request a formal invoice?",
-      answer: "Formal invoices can be requested by contacting our finance department.",
+      answer: `Requesting a formal invoice is simple. After initiating a service or making a payment, you can send an email to our finance team at accounts@buezetech.com with your transaction details and company information. You will receive a properly formatted invoice promptly.`,
     },
+     {
+      question: "Will you sign a NDA?",
+      answer: `Absolutely. At Bueze Tech Limited, we understand the importance of confidentiality and intellectual property protection. We are more than willing to sign a Non-Disclosure Agreement (NDA) to ensure that your ideas, data, and project details remain secure and private.`,
+    },
+    
   ],
   technical: [
     {
-      question: "How do I reset my password?",
-      answer: "You can reset your password by clicking 'Forgot Password' on the login page.",
+      question: "How important is user experience (UX) in mobile app development?",
+      answer: `Everything is involved. An excellent user experience (UX) makes users happy, encourages them to return, and makes sure your software doesn't become simply another forgotten symbol. UX is crucial, not just important, to put it briefly.`,
     },
     {
-      question: "What should I do if I encounter an error?",
-      answer: "If you encounter an error, please contact support with the error code.",
+      question: "What is the difference between native and cross-platform development?",
+      answer: `Cross-platform apps are off-the-shelf solutions that work on several platforms, whereas native apps are like custom-tailored suits for one platform (iOS or Android). Cross-platform offers versatility, while native seems a bit sharper—the choice is yours!`,
     },
     {
-      question: "How can I update my software version?",
-      answer: "You can update the software version from the settings menu under 'Updates.'",
+      question: "Do you guys develop for Apple or Android?",
+      answer: `We compete on both the iOS and Android teams. We can help you whether you're creating for Google Play users or Apple devotees. And we'll use cross-platform wizardry to make it happen if you want both.`,
     },
     {
-      question: "What browsers are supported?",
-      answer: "Our platform supports Chrome, Firefox, Safari, and Edge.",
+      question: "How long does it take to develop a mobile app?",
+      answer: `"How long does it take to cook a great meal?" is akin to that question. The recipe determines this. 3 to 9 months on average, but we make sure every second matters. A feature-rich masterpiece or a quick MVP? We have schedules for both.`,
     },
+    {
+      question: "How do I choose a mobile app development company?",
+      answer: `Seek for a business that can deliver on time, has experience, and shares your goal (hint: us!). Extra points if they guarantee a 100% success rate, agile development, and post-launch support. Wait a minute—we've checked off every box (touchwood).`
+    }
   ],
 };
 

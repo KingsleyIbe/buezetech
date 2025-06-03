@@ -6,6 +6,7 @@ import classNames from "classnames";
 import carousel1 from "../../public/carousel-1.jpg";
 import carousel2 from "../../public/carousel-2.jpg";
 import carousel3 from "../../public/carousel-4.jpg";
+import carousel from "../../public/2148913217.jpg";
 
 const slides = [
     {
@@ -25,6 +26,15 @@ const slides = [
         buttonText2: "Book Free Session",
         buttonLink1: "/#services",
         buttonLink2: "/contact-us#calendly",
+    },
+      {
+        image: carousel,
+        heading: "Learn in-demand Tech Skills Design to Suit Your Schedule",
+        subheading: "We have curated one-on-one online skills that meet your learning needs",
+        buttonText1: "Read More",
+        buttonText2: "Start Learning",
+        buttonLink1: "/#courses",
+        buttonLink2: "/courses#register",
     },
     {
         image: carousel3,
