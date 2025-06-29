@@ -34,7 +34,7 @@ const slides = [
         buttonText1: "Read More",
         buttonText2: "Start Learning",
         buttonLink1: "/#courses",
-        buttonLink2: "/courses#register",
+        buttonLink2: "https://forms.gle/Mgo1vfNRVVGptLvQ9",
     },
     {
         image: carousel3,
