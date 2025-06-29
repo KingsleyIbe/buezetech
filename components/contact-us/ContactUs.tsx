@@ -16,7 +16,7 @@ const ContactUs = () => {
           <li className="bg-amber-50 p-2 rounded-[5px]"><span className="rounded-[100%] border border-[#fd9800] text-[#fd9800] py-0 px-2 mr-5">-</span><span>We&#39;ll provide a free analysis & quote + send over a proposal.</span></li>
           <li className="bg-amber-50 p-2 rounded-[5px]"><span className="rounded-[100%] border border-[#fd9800] text-[#fd9800] py-0 px-2 mr-5">-</span><span>Even if we don&#39;t work together, feel free to consider us a free technical resource to bounce your thoughts/questions off of.</span></li>
         </ul>
-        <p className="my-2">Alternatively, contact us via phone <span className="text-[#fd9800]">+234 902 095 6168</span> or email <span className="text-[#fd9800]">info@buezetech.com</span></p>
+        <p className="my-2">Alternatively, contact us via phone <span className="text-[#fd9800]">+234 703 033 1929</span> or email <span className="text-[#fd9800]">info@buezetech.com</span></p>
       </div>
       <ContactForm />
     </section>

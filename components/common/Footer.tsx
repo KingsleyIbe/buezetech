@@ -51,7 +51,7 @@ const Footer = () => {
                             </Link>
                             <hr />
                             <Link href="/" className="items-center flex gap-2 my-5">
-                            <span><FontAwesomeIcon icon={faPhoneFlip} className="text-[#fd9800] w-[20px]" /></span><span className="text-[#5c5c5d]">Call: +234 902 095 6168</span>
+                            <span><FontAwesomeIcon icon={faPhoneFlip} className="text-[#fd9800] w-[20px]" /></span><span className="text-[#5c5c5d]">Call: +234 703 033 1929</span>
                             </Link>
 
                         </address>

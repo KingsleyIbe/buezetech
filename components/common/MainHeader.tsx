@@ -28,7 +28,7 @@ const MainHeader = () => {
                     <FontAwesomeIcon icon={faPhoneFlip} className="text-[#181842] w-[20px]" />
                     <div className="flex flex-col relative after:content-[''] after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-[#181842] pr-4">
                        <p className="text-[#5c5c5d] font-bold"> Have any questions?</p>
-                       <Link href="/" className="text-[#fd9800] opacity-[0.8]">Call: +234 902 095 6168</Link>
+                       <Link href="/" className="text-[#fd9800] opacity-[0.8]">Call: +234 703 033 1929</Link>
                     </div>
                     <button type="button" className={styles.bookSessionBtn}>
                       <Link href="/contact-us#calendly">Book A Session</Link>
