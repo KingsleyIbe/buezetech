@@ -31,7 +31,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Bueze Tech Limited",
-  description: "IT Consulting Firm, Software Development Company",
+  description: "IT Consulting Firm, Software Development Company, Tech Skills Training",
+  keywords: ['Bueze Tech', 'Online Tech Training', 'Web Development', 'Cybersecurity Courses', 'Learn Programming Online', 'IT Professional Trainings', 'Custom Software Development solutions', 'Technical Writing', 'Software Documentation', 'Low-Code/No-Code Solutions', 'best software company'],
+  openGraph: {
+    title: 'Bueze Tech Limited',
+    description: 'IT Consulting Firm, Software Development Company, Tech Skills Training',
+    images: [
+      {
+        url: 'https://buezetech.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Bueze Tech Open Graph Image',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['https://buezetech.com/og-image.png'],
+  },
 };
 
 export default function RootLayout({
@@ -63,6 +80,23 @@ export default function RootLayout({
             `,
           }}
         />
+        import Script from 'next/script';
+
+<Script
+  id="course-schema"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareDevelopmentITOrganization",
+      "name": "Bueze Tech Limited",
+      "url": "https://buezetech.com",
+      "description": "IT Consulting Firm, Software Development Company, Tech Skills Training",
+    }),
+  }}
+/>
+
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lato.variable} ${breeSerif.variable} font-sans antialiased`}

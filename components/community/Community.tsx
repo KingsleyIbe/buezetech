@@ -5,7 +5,7 @@ const Community: React.FC = () => {
   return (
     <section className="bg-white py-16 px-4 sm:px-8 lg:px-24 text-[181842]">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-6 text-[#fd9800]">Join the Bueze Tech Community</h2>
+        <h1 className="text-4xl font-bold mb-6 text-[#fd9800]">Join the Bueze Tech Community</h1>
         <p className="text-lg mb-8">
           A thriving space where tech enthusiasts, professionals, and learners come together to grow, connect, and explore new opportunities.
         </p>

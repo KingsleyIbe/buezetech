@@ -10,7 +10,7 @@ const ContactUs = () => {
         <div>
           <Image src={ContactImage} alt="" className="" />
         </div>
-        <h2 className="my-5 text-3xl"><span>Get</span><span className="text-[#fd9800]"> in touch today</span></h2>
+        <h1 className="my-5 text-3xl"><span>Get</span><span className="text-[#fd9800]"> in touch today</span></h1>
         <ul className="flex flex-col gap-2">
           <li className="bg-amber-50 p-2 rounded-[5px]"><span className="rounded-[100%] border border-[#fd9800] text-[#fd9800] py-0 px-2 mr-5">-</span><span>We&#39;ll hop on a call and hear out your idea, protected by our NDA.</span></li>
           <li className="bg-amber-50 p-2 rounded-[5px]"><span className="rounded-[100%] border border-[#fd9800] text-[#fd9800] py-0 px-2 mr-5">-</span><span>We&#39;ll provide a free analysis & quote + send over a proposal.</span></li>
