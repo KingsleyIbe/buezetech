@@ -30,11 +30,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bueze Tech Limited",
+  title: "Bueze Tech Limited - IT Consulting Firm, Software Development Company, Tech Skills Training",
   description: "IT Consulting Firm, Software Development Company, Tech Skills Training",
   keywords: ['Bueze Tech', 'Online Tech Training', 'Web Development', 'Cybersecurity Courses', 'Learn Programming Online', 'IT Professional Trainings', 'Custom Software Development solutions', 'Technical Writing', 'Software Documentation', 'Low-Code/No-Code Solutions', 'best software company'],
   openGraph: {
-    title: 'Bueze Tech Limited',
+    title: 'Bueze Tech Limited - IT Consulting Firm, Software Development Company, Tech Skills Training',
     description: 'IT Consulting Firm, Software Development Company, Tech Skills Training',
     images: [
       {
