@@ -4,6 +4,7 @@ import { Toaster } from 'react-hot-toast';
 import { Geist, Geist_Mono, Bree_Serif, Lato } from "next/font/google";
 import "../styles/globals.css";
 import GoogleAnalyticsTracker from './ga-tracker';
+import WhatsappWidget from "../components/common/WhatsappWidget";
 
 const breeSerif = Bree_Serif({
   subsets: ['latin'],
@@ -14,7 +15,7 @@ const breeSerif = Bree_Serif({
 
 const lato = Lato({
   subsets: ['latin'],
-  weight: ['400', '700'], // or whatever weights you need
+  weight: ['400', '700'],
   variable: '--font-lato',
   display: 'swap',
 });
@@ -103,6 +104,7 @@ export default function RootLayout({
       >
         <GoogleAnalyticsTracker />
         <Toaster position="top-right" reverseOrder={false} />
+        <WhatsappWidget />
         {children}
       </body>
     </html>
