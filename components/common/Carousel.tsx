@@ -35,6 +35,7 @@ const slides = [
         buttonText2: "Start Learning",
         buttonLink1: "/#courses",
         buttonLink2: "https://forms.gle/Mgo1vfNRVVGptLvQ9",
+        target: "_blank",
     },
     {
         image: carousel3,
@@ -97,7 +98,7 @@ const Carousel: React.FC = () => {
                                     {slide.buttonText1}
                                 </a>
                                 <a
-                                    href={slide.buttonLink2}
+                                    href={slide.buttonLink2} target={slide.target}
                                     className="bg-[#fd9800] hover:bg-[#181842] hover:text-[#fd9800] text-[#181842] px-6 py-3 rounded-lg text-lg"
                                 >
                                     {slide.buttonText2}

@@ -1,11 +1,9 @@
 import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react';
 import styles from '../../styles/components/mainHeader.module.css';
 import Logo from './Logo';
-// import Logo from "../../public/logo.png";
 
 const MainHeader = () => {
   return (
