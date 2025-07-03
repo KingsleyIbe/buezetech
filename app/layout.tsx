@@ -62,7 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-         {/* Google Analytics Script */}
+        {/* Google Analytics Script */}
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
@@ -83,20 +83,20 @@ export default function RootLayout({
         />
         import Script from 'next/script';
 
-<Script
-  id="course-schema"
-  type="application/ld+json"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "SoftwareDevelopmentITOrganization",
-      "name": "Bueze Tech Limited",
-      "url": "https://buezetech.com",
-      "description": "IT Consulting Firm, Software Development Company, Tech Skills Training",
-    }),
-  }}
-/>
+        <Script
+          id="course-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareDevelopmentITOrganization",
+              "name": "Bueze Tech Limited",
+              "url": "https://buezetech.com",
+              "description": "IT Consulting Firm, Software Development Company, Tech Skills Training",
+            }),
+          }}
+        />
 
       </head>
       <body

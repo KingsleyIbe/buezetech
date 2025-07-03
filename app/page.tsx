@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Carousel from "../components/common/Carousel";
 import Footer from "../components/common/Footer";
 import MainHeader from "../components/common/MainHeader";
@@ -39,18 +40,39 @@ export const metadata = {
 
 const Home = () => {
   return (
-    <div className="relative">
-      <TopHeader />
-      <MobileHeader />
-      <MainHeader />
-      <Carousel />
-      <Services />
-      <OurIndustries />
-      <AboutUs />
-      <Accordion />
-      <CallToaction />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Bueze Tech Limited – Learn Tech Skills Online</title>
+        <meta name="description" content="Enroll in tech courses like web development, mobile app dev, cybersecurity, and more." />
+
+        {/* Logo Schema Markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "url": "https://buezetech.com",
+              "logo": "https://buezetech.com/BuezeTechLogo.svg",
+              "name": "Bueze Tech Limited"
+            })
+          }}
+        />
+      </Head>
+
+      <div className="relative">
+        <TopHeader />
+        <MobileHeader />
+        <MainHeader />
+        <Carousel />
+        <Services />
+        <OurIndustries />
+        <AboutUs />
+        <Accordion />
+        <CallToaction />
+        <Footer />
+      </div>
+    </>
   );
 };
 
