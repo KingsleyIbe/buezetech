@@ -1,37 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bueze Tech Limited
 
-## Getting Started
+>The BuezeTech.com website is a modern, responsive platform developed using Next.js with TypeScript. Built with performance and scalability in mind, the site utilizes App Router architecture for structured file-based routing and optimized navigation. Styling is handled using Tailwind CSS, allowing for rapid UI development and consistent design.
 
-First, run the development server:
+Key features include:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Server-side rendering (SSR) and static site generation (SSG) for improved SEO and load speed
+- Modular React components for maintainability and reuse
+- Integration of client/server components to handle both interactivity and backend logic
+- Support for dark/light mode toggle, powered by Tailwind’s utility classes
+- Responsive layout optimized for mobile, tablet, and desktop
+- Clean project structure with TypeScript ensuring type safety and better development experience
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This site reflects BuezeTech’s mission of building clean, fast, and scalable digital solutions.
 
+![Screenshot](./public/og-image.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## BUILT WITH
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-- Basic Language - TypeScript 
+- Framework - NextJs
+- Other technologies/tools: 
 
-## Learn More
+``` create-next-app
+    > create-next-app
+    > webpack for bundling files
+    > Babel for code transpiling
+    > Git for version control
+    > Eslint for JavaScript linting
+    > Stylelint for style linting
+    > Jest for testing
+    > Calendly API
+    > SASS and Tailwind for styling
+ ```
 
-To learn more about Next.js, take a look at the following resources:
+## Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Live Demo Link](https://buezetech.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👤 **Author**
 
-## Deploy on Vercel
+- GitHub: [@Kingsleyibe](https://github.com/kingsleyibe)
+- Twitter: [@ibekingsley2](https://x.com/kingsleyibec)
+- LinkedIn: [Kingsley Ibe](https://www.linkedin.com/in/kingsley-ibe/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/KingsleyIbe/buezetech/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgement
+
+Bueze Tech Limited
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
