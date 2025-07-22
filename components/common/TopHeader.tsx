@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faLocationDot } from '@fortawesome/free-solid-svg-icons/faLocation';
 import { faEnvelopeOpen, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import SocialLinks from './SocialLinks';

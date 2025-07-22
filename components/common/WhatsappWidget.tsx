@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
 
