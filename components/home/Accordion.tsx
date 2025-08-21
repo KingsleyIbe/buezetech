@@ -101,7 +101,7 @@ export default function Accordion() {
 
       <div className="space-y-4">
         {questions.map((faq, index) => (
-          <div key={index} className="border rounded-md p-4 shadow-sm">
+          <div key={index} className="border-[0.5px] border-solid border-[#1E1E1E1A] rounded-md p-4 shadow-sm">
             <button
               onClick={() => toggleAnswer(index)}
               className="flex justify-between items-center w-full text-left font-medium text-lg"

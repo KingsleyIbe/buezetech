@@ -40,16 +40,16 @@ const Footer = () => {
                     <div>
                         <h2 className="text-[24px] text-[#fd9800] mb-2 font-bold">Help Link</h2>
                         <address>
-                            <Link href="https://maps.app.goo.gl/XhbySAPMMv72hqkU7" title="Bueze tech limited address" target="_blank" className="flex gap-2 mb-5">
+                            <Link href="https://maps.app.goo.gl/XhbySAPMMv72hqkU7" title="Bueze tech limited address" target="_blank" className="flex gap-2 pb-5 border-b-[0.5px] border-b-solid border-b-[#1E1E1E1A]">
                                 <span><FontAwesomeIcon icon={faLocationDot} className="text-[#fd9800] w-[16px]" /></span>
                                 <span className="text-[#5c5c5d]">2b School Road, Elimgbu, Port Harcourt</span>
                             </Link>
-                            <hr />
-                            <Link href="mailto: info@buezetech.com" title="Bueze tech limited email" className="items-center flex gap-2 my-5">
+                            
+                            <Link href="mailto: info@buezetech.com" title="Bueze tech limited email" className="items-center flex gap-2 py-5 border-b-[0.5px] border-b-solid border-b-[#1E1E1E1A]">
                                 <span><FontAwesomeIcon icon={faEnvelopeOpen} className="text-[#fd9800] w-[16px]" />
                                 </span><span className="text-[#5c5c5d]">info@buezetech.com</span>
                             </Link>
-                            <hr />
+                        
                             <Link href="/" className="items-center flex gap-2 my-5">
                             <span><FontAwesomeIcon icon={faPhoneFlip} className="text-[#fd9800] w-[20px]" /></span><span className="text-[#5c5c5d]">Call: +234 703 033 1929</span>
                             </Link>
@@ -57,8 +57,7 @@ const Footer = () => {
                         </address>
                     </div>
                 </nav>
-                <div className="text-center mb-5">
-                    <hr />
+                <div className="text-center mb-5 border-t-[0.5px] border-t-solid border-t-[#1E1E1E1A]">
                     <p className="mt-5">&copy; <span className="text-[#fd9800] font-bold">Bueze <span className="text-[#181842]">Tech </span>Limited</span>, <span>All rights reserved</span></p>
                     <p className="italic">...Empowering Businesses With Technology</p>
                 </div>

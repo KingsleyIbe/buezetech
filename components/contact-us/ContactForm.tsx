@@ -51,7 +51,7 @@ const ContactForm = () => {
       className="w-full md:w-[50%] p-5 bg-[#fff] shadow-lg rounded-lg"
       onSubmit={handleSubmit}
     >
-      <h3 className="border-b pb-5 border-b-[#ccc] text-xl">
+      <h3 className="pb-5 border-b-[0.5px] border-b-solid border-b-[#1E1E1E1A] text-xl">
         We respond promptly, typically within{' '}
         <span className="text-[#fd9800]">30 minutes.</span>
       </h3>
@@ -66,7 +66,7 @@ const ContactForm = () => {
             id="fullName"
             name="fullName"
             placeholder="Enter full name"
-            className="border p-2 mt-2 rounded-[5px]"
+            className="border-[0.5px] border-solid border-[#1E1E1E1A] p-2 mt-2 rounded-[5px]"
             value={fullName}
             onChange={(e) => setFullName(e.target.value)}
             required
@@ -82,7 +82,7 @@ const ContactForm = () => {
             id="email"
             name="email"
             placeholder="johndoe@example.com"
-            className="border p-2 mt-2 rounded-[5px]"
+            className="border-[0.5px] border-solid border-[#1E1E1E1A] p-2 mt-2 rounded-[5px]"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -114,7 +114,7 @@ const ContactForm = () => {
             <select
               name="budget"
               id="budget"
-              className="border p-2 mt-2 rounded-[5px]"
+              className="border-[0.5px] border-solid border-[#1E1E1E1A] p-2 mt-2 rounded-[5px]"
               value={budget}
               onChange={(e) => setBudget(e.target.value)}
               required
@@ -138,7 +138,7 @@ const ContactForm = () => {
             id="description"
             name="description"
             placeholder="Enter your message"
-            className="border p-2 mt-2 rounded-[5px]"
+            className="border-[0.5px] border-solid border-[#1E1E1E1A] p-2 mt-2 rounded-[5px]"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           ></textarea>
