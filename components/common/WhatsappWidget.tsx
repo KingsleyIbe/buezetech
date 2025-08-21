@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
 
 const WhatsappWidget: React.FC = () => {
-  const whatsappNumber = '2347030331929';
+  const whatsappNumber = '2349055179713';
   const message = 'Hello! I need help with Bueze Tech Limited.';
 
   const handleClick = () => {
